@@ -1,0 +1,41 @@
+let heroi = "Oripeace"
+let quantidadeDeVitorias = 63
+let quantidadeDeDerrotas = 32
+let resultador = (quantidadeDeVitorias - quantidadeDeDerrotas)
+
+function invocadorDaDio(){
+	console.log("Seja bem vindo ao League of DIO, " + heroi + ". Vamos descobrir o seu elo de Jogador!")
+    
+    traco()
+    
+	console.log("*Você possui",quantidadeDeVitorias, "vitorias"+" e " + quantidadeDeDerrotas + " Derrotas!")
+	}
+
+invocadorDaDio()
+
+traco()
+function traco(){
+console.log("--------------------------------------------------------")
+
+}
+aproveitamento = 63
+
+if(aproveitamento <= 10) {
+	console.log("Olá, Oripeace! Atualmente, seu nivel de invocador é Ferro!")
+} else if(aproveitamento <= 21){
+	console.log("Olá, Oripeace! Atualmente, seu nivel de invocador é Bronze!")
+
+
+} else if(aproveitamento <= 50) {
+	console.log("Olá, caro invocador Oripeace! Atualmente voce esta no Prata!")
+}else if(aproveitamento <= 80){
+	console.log("Olá, caro invocador Oripeace! Atualmente voce esta no Ouro!")
+} else if(aproveitamento <= 90){
+	console.log("Olá, caro invocador Oripeace! Atualmente voce esta no Platina!")
+}else if(aproveitamento <= 100){
+	console.log("Olá, caro invocador Oripeace! Atualmente voce esta no Diamante!")}
+    
+    traco()
+    
+console.log("O heroi tem o saldo de " +resultador+ " partidas vencidas a mais que perdidas, e esta no nivel Ouro!")
+    
