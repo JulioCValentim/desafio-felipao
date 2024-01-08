@@ -1,0 +1,39 @@
+
+function menu(){
+	console.log("Seja bem vindo meu caro jogador! Escolha o seu personagem: 	");
+	console.log("1- Mago, 2- Guerreiro, 3- Monge e 4- Ninja.")
+
+}
+
+console.log("------------------------------------------")
+
+menu()
+
+class personagemEscolhido{
+	constructor(classeDoHeroi, habilidadeDoHeroi){
+    this.classeDoHeroi = classeDoHeroi
+    this.habilidadeDoHeroi = habilidadeDoHeroi
+    
+    }
+escreva(){
+	console.log(`- Um heroi ${this.classeDoHeroi} ressurgiu na frente dos nosso olhos,
+usando ${this.habilidadeDoHeroi} como sua arma mortal,
+és a nossa Salvação?`)
+    
+
+}
+}
+
+let heroiClasse = new personagemEscolhido("Mago", "Magia")
+let novoHeroi = new personagemEscolhido("Guerreiro chamado Link!", " uma Master Sword")
+let ninjaNovo = new personagemEscolhido("Ninja da Aldeia da Folha Naruto", "usou uma Shuriken")
+let personagemMonge = new personagemEscolhido(" Monge ", "Artes Marciais")
+
+heroiClasse.escreva()
+console.log("------------------------------------------")
+novoHeroi.escreva()
+console.log("------------------------------------------")
+ninjaNovo.escreva()
+console.log("------------------------------------------")
+personagemMonge.escreva()
+console.log("------------------------------------------")
